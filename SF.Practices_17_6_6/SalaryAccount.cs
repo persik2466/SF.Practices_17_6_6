@@ -14,7 +14,7 @@ namespace SF.Practices_17_6_6
         public double Interest { get; set; }
 
         /// <summary>
-        /// Расчёт процентной ставки в зависимости от баланса
+        /// расчет процентной ставки зарплатного аккаунта по правилам банка
         /// </summary>
         public void CalculateInterest()
         {
