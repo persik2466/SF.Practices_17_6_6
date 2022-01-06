@@ -10,7 +10,7 @@ namespace SF.Practices_17_6_6
             var normalAccount = new NormalAccount();
             var salaryAccount = new SalaryAccount();
 
-            normalAccount.Balance = 2000.00;
+            normalAccount.Balance = 500.00;
             salaryAccount.Balance = 500.00;
 
             // обычный счёт
@@ -23,7 +23,7 @@ namespace SF.Practices_17_6_6
 
             // зарплатный счёт
             calculator.CommonInterest(salaryAccount);
-            Console.WriteLine("зарплатный счёт: ");
+            Console.WriteLine("Зарплатный счёт: ");
             Console.WriteLine($"При балансе {salaryAccount.Balance} руб. процентная ставка { salaryAccount.Interest }");
 
             Console.ReadKey();
